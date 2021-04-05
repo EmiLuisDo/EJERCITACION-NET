@@ -1,0 +1,16 @@
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO2_14705/bin/Debug/net5.0/EJERCICIO2_14705
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO2_14705/bin/Debug/net5.0/EJERCICIO2_14705.deps.json
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO2_14705/bin/Debug/net5.0/EJERCICIO2_14705.runtimeconfig.json
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO2_14705/bin/Debug/net5.0/EJERCICIO2_14705.runtimeconfig.dev.json
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO2_14705/bin/Debug/net5.0/EJERCICIO2_14705.dll
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO2_14705/bin/Debug/net5.0/ref/EJERCICIO2_14705.dll
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO2_14705/bin/Debug/net5.0/EJERCICIO2_14705.pdb
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO2_14705/obj/Debug/net5.0/EJERCICIO2_14705.csprojAssemblyReference.cache
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO2_14705/obj/Debug/net5.0/EJERCICIO2_14705.GeneratedMSBuildEditorConfig.editorconfig
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO2_14705/obj/Debug/net5.0/EJERCICIO2_14705.AssemblyInfoInputs.cache
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO2_14705/obj/Debug/net5.0/EJERCICIO2_14705.AssemblyInfo.cs
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO2_14705/obj/Debug/net5.0/EJERCICIO2_14705.csproj.CoreCompileInputs.cache
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO2_14705/obj/Debug/net5.0/EJERCICIO2_14705.dll
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO2_14705/obj/Debug/net5.0/ref/EJERCICIO2_14705.dll
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO2_14705/obj/Debug/net5.0/EJERCICIO2_14705.pdb
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO2_14705/obj/Debug/net5.0/EJERCICIO2_14705.genruntimeconfig.cache

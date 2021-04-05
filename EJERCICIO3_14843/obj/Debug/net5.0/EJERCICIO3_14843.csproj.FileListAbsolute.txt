@@ -1,0 +1,16 @@
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO3_14843/obj/Debug/net5.0/EJERCICIO3_14843.csprojAssemblyReference.cache
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO3_14843/obj/Debug/net5.0/EJERCICIO3_14843.GeneratedMSBuildEditorConfig.editorconfig
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO3_14843/obj/Debug/net5.0/EJERCICIO3_14843.AssemblyInfoInputs.cache
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO3_14843/obj/Debug/net5.0/EJERCICIO3_14843.AssemblyInfo.cs
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO3_14843/obj/Debug/net5.0/EJERCICIO3_14843.csproj.CoreCompileInputs.cache
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO3_14843/bin/Debug/net5.0/EJERCICIO3_14843
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO3_14843/bin/Debug/net5.0/EJERCICIO3_14843.deps.json
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO3_14843/bin/Debug/net5.0/EJERCICIO3_14843.runtimeconfig.json
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO3_14843/bin/Debug/net5.0/EJERCICIO3_14843.runtimeconfig.dev.json
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO3_14843/bin/Debug/net5.0/EJERCICIO3_14843.dll
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO3_14843/bin/Debug/net5.0/ref/EJERCICIO3_14843.dll
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO3_14843/bin/Debug/net5.0/EJERCICIO3_14843.pdb
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO3_14843/obj/Debug/net5.0/EJERCICIO3_14843.dll
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO3_14843/obj/Debug/net5.0/ref/EJERCICIO3_14843.dll
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO3_14843/obj/Debug/net5.0/EJERCICIO3_14843.pdb
+/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO3_14843/obj/Debug/net5.0/EJERCICIO3_14843.genruntimeconfig.cache
