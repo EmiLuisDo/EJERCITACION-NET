@@ -81,6 +81,7 @@ namespace EJERCICIO3_14843
             return sexoS;
         }
 
+            //Se sobreescribe este metodo para el metodo sort de las listas
             public int CompareTo(Persona other)
             {
                 // If other is not a valid object reference, this instance is greater.

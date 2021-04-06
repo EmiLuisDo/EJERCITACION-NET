@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO3_14843/EJERCICIO3_14843.csproj": {}
+    "/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO3_14843/EJERCICIO3_14843.csproj": {}
   },
   "projects": {
-    "/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO3_14843/EJERCICIO3_14843.csproj": {
+    "/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO3_14843/EJERCICIO3_14843.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO3_14843/EJERCICIO3_14843.csproj",
+        "projectUniqueName": "/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO3_14843/EJERCICIO3_14843.csproj",
         "projectName": "EJERCICIO3_14843",
-        "projectPath": "/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO3_14843/EJERCICIO3_14843.csproj",
+        "projectPath": "/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO3_14843/EJERCICIO3_14843.csproj",
         "packagesPath": "/home/emiliano/.nuget/packages/",
-        "outputPath": "/home/emiliano/DirMOD/EJERCITACION NET/EJERCICIO3_14843/obj/",
+        "outputPath": "/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO3_14843/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/emiliano/.nuget/NuGet/NuGet.Config"
