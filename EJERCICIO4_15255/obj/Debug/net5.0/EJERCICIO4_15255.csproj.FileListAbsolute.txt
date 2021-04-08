@@ -1,0 +1,16 @@
+/home/aceleradora06/DirMOD/EJERCITACION-NET/EJERCICIO4_15255/bin/Debug/net5.0/EJERCICIO4_15255
+/home/aceleradora06/DirMOD/EJERCITACION-NET/EJERCICIO4_15255/bin/Debug/net5.0/EJERCICIO4_15255.deps.json
+/home/aceleradora06/DirMOD/EJERCITACION-NET/EJERCICIO4_15255/bin/Debug/net5.0/EJERCICIO4_15255.runtimeconfig.json
+/home/aceleradora06/DirMOD/EJERCITACION-NET/EJERCICIO4_15255/bin/Debug/net5.0/EJERCICIO4_15255.runtimeconfig.dev.json
+/home/aceleradora06/DirMOD/EJERCITACION-NET/EJERCICIO4_15255/bin/Debug/net5.0/EJERCICIO4_15255.dll
+/home/aceleradora06/DirMOD/EJERCITACION-NET/EJERCICIO4_15255/bin/Debug/net5.0/ref/EJERCICIO4_15255.dll
+/home/aceleradora06/DirMOD/EJERCITACION-NET/EJERCICIO4_15255/bin/Debug/net5.0/EJERCICIO4_15255.pdb
+/home/aceleradora06/DirMOD/EJERCITACION-NET/EJERCICIO4_15255/obj/Debug/net5.0/EJERCICIO4_15255.csprojAssemblyReference.cache
+/home/aceleradora06/DirMOD/EJERCITACION-NET/EJERCICIO4_15255/obj/Debug/net5.0/EJERCICIO4_15255.GeneratedMSBuildEditorConfig.editorconfig
+/home/aceleradora06/DirMOD/EJERCITACION-NET/EJERCICIO4_15255/obj/Debug/net5.0/EJERCICIO4_15255.AssemblyInfoInputs.cache
+/home/aceleradora06/DirMOD/EJERCITACION-NET/EJERCICIO4_15255/obj/Debug/net5.0/EJERCICIO4_15255.AssemblyInfo.cs
+/home/aceleradora06/DirMOD/EJERCITACION-NET/EJERCICIO4_15255/obj/Debug/net5.0/EJERCICIO4_15255.csproj.CoreCompileInputs.cache
+/home/aceleradora06/DirMOD/EJERCITACION-NET/EJERCICIO4_15255/obj/Debug/net5.0/EJERCICIO4_15255.dll
+/home/aceleradora06/DirMOD/EJERCITACION-NET/EJERCICIO4_15255/obj/Debug/net5.0/ref/EJERCICIO4_15255.dll
+/home/aceleradora06/DirMOD/EJERCITACION-NET/EJERCICIO4_15255/obj/Debug/net5.0/EJERCICIO4_15255.pdb
+/home/aceleradora06/DirMOD/EJERCITACION-NET/EJERCICIO4_15255/obj/Debug/net5.0/EJERCICIO4_15255.genruntimeconfig.cache

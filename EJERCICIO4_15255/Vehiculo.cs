@@ -15,8 +15,13 @@ namespace EJERCICIO4_15255
             get{return this.tanque.CombustibleRestante;}
         }
 
+        public Vehiculo (Tanque tan){
+            this.Tanque = tan;
+        }
+
         public int reFuel(int fuel){
-            this.tanque.reFuel(fuel);
+             int seCargo = this.tanque.reFuel(fuel);
+             return seCargo;
         }
 
     }
