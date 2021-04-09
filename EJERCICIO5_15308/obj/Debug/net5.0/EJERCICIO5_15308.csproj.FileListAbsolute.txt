@@ -1,0 +1,16 @@
+/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/obj/Debug/net5.0/EJERCICIO5_15308.csprojAssemblyReference.cache
+/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/obj/Debug/net5.0/EJERCICIO5_15308.GeneratedMSBuildEditorConfig.editorconfig
+/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/obj/Debug/net5.0/EJERCICIO5_15308.AssemblyInfoInputs.cache
+/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/obj/Debug/net5.0/EJERCICIO5_15308.AssemblyInfo.cs
+/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/obj/Debug/net5.0/EJERCICIO5_15308.csproj.CoreCompileInputs.cache
+/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/bin/Debug/net5.0/EJERCICIO5_15308
+/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/bin/Debug/net5.0/EJERCICIO5_15308.deps.json
+/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/bin/Debug/net5.0/EJERCICIO5_15308.runtimeconfig.json
+/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/bin/Debug/net5.0/EJERCICIO5_15308.runtimeconfig.dev.json
+/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/bin/Debug/net5.0/EJERCICIO5_15308.dll
+/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/bin/Debug/net5.0/ref/EJERCICIO5_15308.dll
+/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/bin/Debug/net5.0/EJERCICIO5_15308.pdb
+/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/obj/Debug/net5.0/EJERCICIO5_15308.dll
+/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/obj/Debug/net5.0/ref/EJERCICIO5_15308.dll
+/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/obj/Debug/net5.0/EJERCICIO5_15308.pdb
+/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/obj/Debug/net5.0/EJERCICIO5_15308.genruntimeconfig.cache

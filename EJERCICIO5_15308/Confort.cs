@@ -1,10 +1,10 @@
 using System;
 namespace EJERCICIO5_15308
 {
-    public class Sport : SeteadorVehiculos{
+    public class Confort:SeteadorVehiculos{
         
-        static int pow = 50;
-        static int susp = 10;
+        static int pow = 9;
+        static int susp = 8;
 
         public int Power
         {
@@ -13,7 +13,6 @@ namespace EJERCICIO5_15308
         public int SuspensionHeight {
             get {return susp;}
         }
-        
         
     }
 }

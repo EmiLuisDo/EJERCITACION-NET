@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace EJERCICIO5_15308
 {
@@ -6,7 +7,16 @@ namespace EJERCICIO5_15308
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Vehiculo con = new Vehiculo(new Sport());
+            Vehiculo spo = new Vehiculo(new Confort());
+            List<Vehiculo> vehis= new List<Vehiculo>();
+            vehis.Add(con);
+            vehis.Add(spo);
+            
+            ServicioImpresion serI = new ServicioImpresion();
+            serI.ImprimirVehiculos(vehis);
+
+
         }
     }
 }
