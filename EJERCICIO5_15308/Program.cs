@@ -7,8 +7,12 @@ namespace EJERCICIO5_15308
     {
         static void Main(string[] args)
         {
-            Vehiculo con = new Vehiculo(new Sport());
-            Vehiculo spo = new Vehiculo(new Confort());
+            Vehiculo con = new Vehiculo();
+            Vehiculo spo = new Vehiculo();
+
+            Responsabilidad.cambiarModo(con, new Sport());
+            Responsabilidad.cambiarModo(spo, new Confort());
+
             List<Vehiculo> vehis= new List<Vehiculo>();
             vehis.Add(con);
             vehis.Add(spo);

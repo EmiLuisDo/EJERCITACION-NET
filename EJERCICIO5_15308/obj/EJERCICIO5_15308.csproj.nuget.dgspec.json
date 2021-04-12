@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/EJERCICIO5_15308.csproj": {}
+    "/home/aceleradora06/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/EJERCICIO5_15308.csproj": {}
   },
   "projects": {
-    "/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/EJERCICIO5_15308.csproj": {
+    "/home/aceleradora06/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/EJERCICIO5_15308.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/EJERCICIO5_15308.csproj",
+        "projectUniqueName": "/home/aceleradora06/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/EJERCICIO5_15308.csproj",
         "projectName": "EJERCICIO5_15308",
-        "projectPath": "/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/EJERCICIO5_15308.csproj",
-        "packagesPath": "/home/emiliano/.nuget/packages/",
-        "outputPath": "/home/emiliano/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/obj/",
+        "projectPath": "/home/aceleradora06/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/EJERCICIO5_15308.csproj",
+        "packagesPath": "/home/aceleradora06/.nuget/packages/",
+        "outputPath": "/home/aceleradora06/DirMOD/EJERCITACION-NET/EJERCICIO5_15308/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/emiliano/.nuget/NuGet/NuGet.Config"
+          "/home/aceleradora06/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
