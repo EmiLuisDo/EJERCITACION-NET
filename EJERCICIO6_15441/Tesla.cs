@@ -6,7 +6,7 @@ namespace EJERCICIO6_15441
 
         public override int arrancar()
         {
-            this.Estado = Vehiculo.encendido;
+            this.Estado = IVehiculo.encendido;
             Console.WriteLine ("Encendiendo Tesla");
             return this.Estado;
         }

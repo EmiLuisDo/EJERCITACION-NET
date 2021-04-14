@@ -1,7 +1,7 @@
 using System;
 namespace EJERCICIO6_15441
 {
-    public class AutoElectrico : Vehiculo
+    public class AutoElectrico : IVehiculo
     {
         private int id;
         public int Id
@@ -18,7 +18,7 @@ namespace EJERCICIO6_15441
         public virtual int arrancar()
         {
             Console.WriteLine("Encendiendo AutoElectrico");
-            this.Id = Vehiculo.encendido;
+            this.Id = IVehiculo.encendido;
             return this.Id;
         }
 
