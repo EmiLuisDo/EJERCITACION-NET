@@ -3,6 +3,8 @@ namespace EJERCICIO6_15441
 {
     public interface Vehiculo
     {
+        public static int encendido = 0;
+        public static int apagado = 0;
 
         int Id
         {
@@ -15,9 +17,6 @@ namespace EJERCICIO6_15441
             set;
         }
 
-        public int arrancar ()
-        {
-            
-        }
+        int arrancar();
     }
 }
