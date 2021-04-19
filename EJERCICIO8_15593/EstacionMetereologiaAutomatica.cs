@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 namespace EJERCICIO8_15593
 {
-    public class EstacionMetereologicaAutomatica : EstacionMetereologica
+    public class EstacionMetereologicaAutomatica : IEstacionMetereologica
     {
         private MedidorTemperatura medidorTemp;
         public MedidorTemperatura MedidorTemperatura
@@ -16,7 +16,7 @@ namespace EJERCICIO8_15593
             Dictionary<String, double> reporte= new Dictionary <String, double>();
             //...
             double temp = MedidorTemperatura.tomarTemperatura();
-            reporte.Add(EstacionMetereologica.temperatura, temp);
+            reporte.Add(IEstacionMetereologica.temperatura, temp);
             //...
             return reporte;
         }
