@@ -5,13 +5,11 @@ namespace EJERCICIO9_15794
 {
     class Program
     {
-        static async Task Main(string[] args)
+        static void Main(string[] args)
         {
             
-            Task t = Program.ejecutarMetodo1Async();
+            Program.ejecutarMetodo1Async();
             Program.ejecutarMetodo2();
-
-            await t;
             Console.ReadKey();
         }
 
@@ -25,11 +23,10 @@ namespace EJERCICIO9_15794
             }
         }
 
-        private async static Task<int> imprimirMensaje()
+        private async static Task imprimirMensaje()
         {
             await Task.Delay(100);
             Console.WriteLine("Método1");
-            return 1;
         }
 
         static void ejecutarMetodo2()
