@@ -8,38 +8,39 @@ namespace Practica1
     {
         static void Main(string[] args)
         {
-            int cantColumnasA = 1000, cantFilasB = 1000;
+            int cantColumnasA = 1500, cantFilasB = 1500;   //estas dos cantidades tienen que coincidir
             int cantFilasA = 1000;
             int cantColumnasB = 1000;
+            //con estas lineas definimos el tamaño de las matrices a tratar, se pueden variar para probar el rendimiento del programa
 
             double [, ] mA = inicializarMatriz(cantFilasA, cantColumnasA);
             double [, ] mB = inicializarMatriz(cantFilasB, cantColumnasB);
 
-            //double [, ] mA = {{2, 3}, {4, 5},{5, 6}}; 
-            //double [, ] mB = {{5, 7, 3, 7}, {4, 2, 1, 2}}; 
-            //imprimirMatriz(cantColumnasA, cantFilasA, mA);
-            //imprimirMatriz(cantColumnasB, cantFilasB, mB);
-
+        /*
+            double [, ] mA = {{2, 3}, {4, 5},{5, 6}}; 
+            double [, ] mB = {{5, 7, 3, 7}, {4, 2, 1, 2}}; 
+            imprimirMatriz(cantColumnasA, cantFilasA, mA);
+            imprimirMatriz(cantColumnasB, cantFilasB, mB);
+        */ //codigo para testear el funcionamiento del producto, crea dos matrices pequeñas de manera estatica si se usa comentar las dos líneas inicializarMatriz()
 
 
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
 
             //ejecutar multiplicacion secuencial 
-            Double [,] resultP = muliplicarMatrizParalelo(mA, mB);
-            //imprimirMatriz( cantColumnasB, cantFilasA, resultS);
+            Double [,] resultS = muliplicarMatrizSecuencial(mA, mB);
             stopwatch.Stop();
-            Console.Error.WriteLine("Tiempo for secuencial: {0}", stopwatch.ElapsedMilliseconds/1000);
+            Console.Error.WriteLine("Tiempo for secuencial (segundos): {0}", stopwatch.ElapsedMilliseconds/1000);
 
 
             stopwatch.Reset();
+            stopwatch.Start();
             //ejecutar multiplicacion paralelo
-            Console.WriteLine("Entro");
-            Double [,] resultS = muliplicarMatrizSecuencial(mA, mB);
-            Console.WriteLine("Salio");
+            Double [,] resultP = muliplicarMatrizParalelo(mA, mB);
+            
             //imprimirMatriz( cantColumnasB, cantFilasA, resultP);
             stopwatch.Stop();
-            Console.Error.WriteLine("Tiempo for secuencial: {0}", stopwatch.ElapsedMilliseconds/1000);
+            Console.Error.WriteLine("Tiempo for Paralelo (segundos): {0}", stopwatch.ElapsedMilliseconds/1000);
 
 
         }
@@ -57,12 +58,12 @@ namespace Practica1
                 {
                     for(int j = 0; j < columnasB; j++)
                     {   
-                    temp = 0;
-                    for(int z=0; z < columnasA ; z++)
-                    {
-                        temp += (mA[i, z] * mB[z, j]);
-                    }
-                    resultado[i,j] = temp;
+                        temp = 0;
+                        for(int z=0; z < columnasA ; z++)
+                        {
+                            temp += (mA[i, z] * mB[z, j]);
+                        }
+                        resultado[i,j] = temp;
                     }
                 });
             return resultado;
@@ -78,10 +79,9 @@ namespace Practica1
 
 
             double[, ] resultado = new double[ filasA, columnasB];
-            Console.WriteLine("Filas result: "+resultado.GetLength(0).ToString()+", Columnas result: "+ resultado.GetLength(1).ToString());
+            //Console.WriteLine("Filas result: "+resultado.GetLength(0).ToString()+", Columnas result: "+ resultado.GetLength(1).ToString());
 
 
-            
             double temp;
             for (int i = 0; i < filasA; i++)
             {
@@ -114,6 +114,15 @@ namespace Practica1
             return matriz;
         }
 
+
+
+
+
+
+
+
+
+        //Método para verificar los resultados
         static void imprimirMatriz(int columnas, int filas,double[,] mat)
         {
             Console.WriteLine("----------------------------------------------Imprimiendo Matriz----------------------------------------------");
