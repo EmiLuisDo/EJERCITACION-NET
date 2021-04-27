@@ -22,7 +22,12 @@ namespace AspNetCoreTodo.Controllers
             // Genera la vista usando el modelo
 
             TodoItem[] items = await _todoItemService.GetIncompleteItemsAsync();
-            return null;
+
+            TodoViewModel model = new TodoViewModel 
+            {
+                Items = items
+            };
+            return View(model);
         }
     }
 }
