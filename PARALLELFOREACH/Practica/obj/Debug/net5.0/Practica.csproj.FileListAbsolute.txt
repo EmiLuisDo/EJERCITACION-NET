@@ -1,0 +1,16 @@
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/Practica/bin/Debug/net5.0/Practica
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/Practica/bin/Debug/net5.0/Practica.deps.json
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/Practica/bin/Debug/net5.0/Practica.runtimeconfig.json
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/Practica/bin/Debug/net5.0/Practica.runtimeconfig.dev.json
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/Practica/bin/Debug/net5.0/Practica.dll
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/Practica/bin/Debug/net5.0/ref/Practica.dll
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/Practica/bin/Debug/net5.0/Practica.pdb
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/Practica/obj/Debug/net5.0/Practica.csprojAssemblyReference.cache
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/Practica/obj/Debug/net5.0/Practica.GeneratedMSBuildEditorConfig.editorconfig
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/Practica/obj/Debug/net5.0/Practica.AssemblyInfoInputs.cache
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/Practica/obj/Debug/net5.0/Practica.AssemblyInfo.cs
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/Practica/obj/Debug/net5.0/Practica.csproj.CoreCompileInputs.cache
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/Practica/obj/Debug/net5.0/Practica.dll
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/Practica/obj/Debug/net5.0/ref/Practica.dll
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/Practica/obj/Debug/net5.0/Practica.pdb
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/Practica/obj/Debug/net5.0/Practica.genruntimeconfig.cache

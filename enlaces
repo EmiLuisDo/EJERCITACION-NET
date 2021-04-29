@@ -9,3 +9,16 @@ https://gist.github.com/flicardie/c256cfdf5a054ed70bbc9938683d5d11
 https://dotnetcodr.com/2014/01/01/5-ways-to-start-a-task-in-net-c/
 
 https://www.digitalocean.com/community/tutorials/react-axios-react-es
+
+
+
+
+
+
+Seleccionar version de .NET a usar
+https://www.c-sharpcorner.com/article/switching-between-net-core-sdk-versions/
+https://docs.microsoft.com/es-es/dotnet/core/versions/selection
+https://markheath.net/post/switching-between-netcore-sdk-versions
+
+https://dotnet.microsoft.com/platform/support/policy
+sudo apt-get install -y dotnet-sdk-2.1

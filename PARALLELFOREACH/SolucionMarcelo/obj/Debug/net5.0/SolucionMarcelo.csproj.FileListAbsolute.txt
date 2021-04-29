@@ -1,0 +1,16 @@
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/SolucionMarcelo/bin/Debug/net5.0/SolucionMarcelo
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/SolucionMarcelo/bin/Debug/net5.0/SolucionMarcelo.deps.json
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/SolucionMarcelo/bin/Debug/net5.0/SolucionMarcelo.runtimeconfig.json
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/SolucionMarcelo/bin/Debug/net5.0/SolucionMarcelo.runtimeconfig.dev.json
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/SolucionMarcelo/bin/Debug/net5.0/SolucionMarcelo.dll
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/SolucionMarcelo/bin/Debug/net5.0/ref/SolucionMarcelo.dll
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/SolucionMarcelo/bin/Debug/net5.0/SolucionMarcelo.pdb
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/SolucionMarcelo/obj/Debug/net5.0/SolucionMarcelo.csprojAssemblyReference.cache
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/SolucionMarcelo/obj/Debug/net5.0/SolucionMarcelo.GeneratedMSBuildEditorConfig.editorconfig
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/SolucionMarcelo/obj/Debug/net5.0/SolucionMarcelo.AssemblyInfoInputs.cache
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/SolucionMarcelo/obj/Debug/net5.0/SolucionMarcelo.AssemblyInfo.cs
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/SolucionMarcelo/obj/Debug/net5.0/SolucionMarcelo.csproj.CoreCompileInputs.cache
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/SolucionMarcelo/obj/Debug/net5.0/SolucionMarcelo.dll
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/SolucionMarcelo/obj/Debug/net5.0/ref/SolucionMarcelo.dll
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/SolucionMarcelo/obj/Debug/net5.0/SolucionMarcelo.pdb
+/home/aceleradora06/DirMOD/EJERCITACION-NET/PARALLELFOREACH/SolucionMarcelo/obj/Debug/net5.0/SolucionMarcelo.genruntimeconfig.cache

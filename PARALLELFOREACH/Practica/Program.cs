@@ -2,26 +2,28 @@
 using System.Diagnostics;
 using System.Threading.Tasks;
 
-namespace Practica1
+namespace Practica
 {
     class Matriz
     {
         static void Main(string[] args)
         {
-            int cantColumnasA = 1500, cantFilasB = 1500;   //estas dos cantidades tienen que coincidir
+            /*int cantColumnasA = 1500, cantFilasB = 1500;   //estas dos cantidades tienen que coincidir
             int cantFilasA = 1000;
             int cantColumnasB = 1000;
             //con estas lineas definimos el tamaño de las matrices a tratar, se pueden variar para probar el rendimiento del programa
 
             double [, ] mA = inicializarMatriz(cantFilasA, cantColumnasA);
-            double [, ] mB = inicializarMatriz(cantFilasB, cantColumnasB);
+            double [, ] mB = inicializarMatriz(cantFilasB, cantColumnasB);*/
 
-        /*
+            int cantColumnasA = 2, cantFilasB = 2;   //estas dos cantidades tienen que coincidir
+            int cantFilasA = 3;
+            int cantColumnasB = 4;
             double [, ] mA = {{2, 3}, {4, 5},{5, 6}}; 
             double [, ] mB = {{5, 7, 3, 7}, {4, 2, 1, 2}}; 
             imprimirMatriz(cantColumnasA, cantFilasA, mA);
             imprimirMatriz(cantColumnasB, cantFilasB, mB);
-        */ //codigo para testear el funcionamiento del producto, crea dos matrices pequeñas de manera estatica si se usa comentar las dos líneas inicializarMatriz()
+         //codigo para testear el funcionamiento del producto, crea dos matrices pequeñas de manera estatica si se usa comentar las dos líneas inicializarMatriz()
 
 
             Stopwatch stopwatch = new Stopwatch();
@@ -38,10 +40,10 @@ namespace Practica1
             //ejecutar multiplicacion paralelo
             Double [,] resultP = muliplicarMatrizParalelo(mA, mB);
             
-            //imprimirMatriz( cantColumnasB, cantFilasA, resultP);
             stopwatch.Stop();
             Console.Error.WriteLine("Tiempo for Paralelo (segundos): {0}", stopwatch.ElapsedMilliseconds/1000);
 
+            imprimirMatriz( cantColumnasB, cantFilasA, resultP);
 
         }
         static double [,] muliplicarMatrizParalelo(double [, ] mA, double[, ] mB)
