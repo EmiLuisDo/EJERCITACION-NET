@@ -15,6 +15,25 @@ namespace AspNetCoreTodo.Controllers
     {
         _todoItemService = todoItemService;
     }
+
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> AddItem(TodoItem newItem)
+    {
+        if (!ModelState.IsValid)
+        {
+            Console.WriteLine("Entro1");
+            return RedirectToAction("Index");
+        }
+        var successful = await _todoItemService.AddItemAsync(newItem);
+        if (!successful)
+        {
+            Console.WriteLine("Entro2");
+            return BadRequest("Could not add item.");
+        }
+        return RedirectToAction("Index");
+    }
+
+
     public async Task<IActionResult> Index()
     {
     var items = await _todoItemService.GetIncompleteItemsAsync();
