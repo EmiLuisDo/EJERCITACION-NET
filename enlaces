@@ -22,3 +22,8 @@ https://markheath.net/post/switching-between-netcore-sdk-versions
 
 https://dotnet.microsoft.com/platform/support/policy
 sudo apt-get install -y dotnet-sdk-2.1
+
+
+Solucionar problemas
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 78BD65473CB3BD13
+sudo apt-key adv –keyserver keyserver.ubuntu.com –recv-keys 78BD65473CB3BD13
