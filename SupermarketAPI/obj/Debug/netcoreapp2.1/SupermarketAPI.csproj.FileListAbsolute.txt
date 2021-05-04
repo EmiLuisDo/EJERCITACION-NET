@@ -1,0 +1,14 @@
+/home/aceleradora06/DirMOD/EJERCITACION-NET/SupermarketAPI/bin/Debug/netcoreapp2.1/SupermarketAPI.deps.json
+/home/aceleradora06/DirMOD/EJERCITACION-NET/SupermarketAPI/bin/Debug/netcoreapp2.1/SupermarketAPI.runtimeconfig.json
+/home/aceleradora06/DirMOD/EJERCITACION-NET/SupermarketAPI/bin/Debug/netcoreapp2.1/SupermarketAPI.runtimeconfig.dev.json
+/home/aceleradora06/DirMOD/EJERCITACION-NET/SupermarketAPI/bin/Debug/netcoreapp2.1/SupermarketAPI.dll
+/home/aceleradora06/DirMOD/EJERCITACION-NET/SupermarketAPI/bin/Debug/netcoreapp2.1/SupermarketAPI.pdb
+/home/aceleradora06/DirMOD/EJERCITACION-NET/SupermarketAPI/obj/Debug/netcoreapp2.1/SupermarketAPI.csprojAssemblyReference.cache
+/home/aceleradora06/DirMOD/EJERCITACION-NET/SupermarketAPI/obj/Debug/netcoreapp2.1/SupermarketAPI.csproj.CoreCompileInputs.cache
+/home/aceleradora06/DirMOD/EJERCITACION-NET/SupermarketAPI/obj/Debug/netcoreapp2.1/SupermarketAPI.RazorAssemblyInfo.cache
+/home/aceleradora06/DirMOD/EJERCITACION-NET/SupermarketAPI/obj/Debug/netcoreapp2.1/SupermarketAPI.RazorAssemblyInfo.cs
+/home/aceleradora06/DirMOD/EJERCITACION-NET/SupermarketAPI/obj/Debug/netcoreapp2.1/SupermarketAPI.AssemblyInfoInputs.cache
+/home/aceleradora06/DirMOD/EJERCITACION-NET/SupermarketAPI/obj/Debug/netcoreapp2.1/SupermarketAPI.AssemblyInfo.cs
+/home/aceleradora06/DirMOD/EJERCITACION-NET/SupermarketAPI/obj/Debug/netcoreapp2.1/SupermarketAPI.RazorTargetAssemblyInfo.cache
+/home/aceleradora06/DirMOD/EJERCITACION-NET/SupermarketAPI/obj/Debug/netcoreapp2.1/SupermarketAPI.dll
+/home/aceleradora06/DirMOD/EJERCITACION-NET/SupermarketAPI/obj/Debug/netcoreapp2.1/SupermarketAPI.pdb
