@@ -22,5 +22,10 @@ namespace SupermarketAPI.Controllers
             return categories;
         }
 
+        [HttpGet]
+        public string holaMundo()
+        {
+            return "hola mundo";
+        }
     }
 }
