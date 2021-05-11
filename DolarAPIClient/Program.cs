@@ -4,27 +4,35 @@ using System.Threading.Tasks;
 using DolarAPIClient.Models.Domain;
 using DolarAPIClient.Models.Reponses;
 using DolarAPIClient.Services.ConsoleInteractions;
+using DolarAPIClient.Services.Logging;
 using DolarAPIClient.Services.Requests;
 
 namespace DolarAPIClient
 {
     class Program
     {
+        
         static async Task Main(string[] args)
-        {
+        {   
+            MenuCotizacion interaccionUsuario = new MenuCotizacion();
             CotizacionRequestService cotizacionService = new CotizacionRequestService(new HttpClient());
             ResponseToCotizacion convertRTC = new ResponseToCotizacion();
 
-            MenuCotizacion interaccionUsuario = new MenuCotizacion();
-            string cotiSolicitada = interaccionUsuario.solicitarTipoCotizacion();
+            while(true){
+                try{
+                    string cotiSolicitada = interaccionUsuario.solicitarTipoCotizacion();
+                    await Logger.registrarSolicitudCotizacion(cotiSolicitada);
 
-            CotizacionResponse resultadoCotizacion = await cotizacionService.solicitarCotizacion(cotiSolicitada);
-
-            Cotizacion coti = convertRTC.convert(resultadoCotizacion);
-
-            Console.WriteLine(coti.Compra);
-            Console.WriteLine(coti.Venta);
-            Console.WriteLine(coti.Fecha);
+                    CotizacionResponse resultadoCotizacion = await cotizacionService.solicitarCotizacion(cotiSolicitada);
+                    Cotizacion coti = convertRTC.convert(resultadoCotizacion);
+                    //coti es el objeto deserealizado de la cotizacion
+                    await Logger.registrarCotizacionConsumida(coti);
+                }
+                catch (Exception e)
+                {
+                    await Logger.registrarError("Problema: ", e);
+                }
+            }
             
             
         }

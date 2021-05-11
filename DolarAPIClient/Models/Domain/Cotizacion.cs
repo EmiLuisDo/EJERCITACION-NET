@@ -14,5 +14,10 @@ namespace DolarAPIClient.Models.Domain
             this.Venta = venta;
             this.Fecha = fecha;
         }
+
+        public override string ToString()
+        {
+            return "Compra:"+this.Compra+ " Venta:"+ this.Venta + " Fecha:"+this.Fecha.ToString();
+        }
     }
 }

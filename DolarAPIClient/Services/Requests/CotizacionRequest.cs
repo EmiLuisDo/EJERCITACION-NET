@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using DolarAPIClient.Models.Reponses;
 using System;
 using Newtonsoft.Json;
+using DolarAPIClient.Services.Logging;
 
 namespace DolarAPIClient.Services.Requests
 {
@@ -12,9 +13,17 @@ namespace DolarAPIClient.Services.Requests
         private readonly HttpClient client;
         public async Task<CotizacionResponse> solicitarCotizacion(string cotizacion)
         {
-
-            var streamTask = this.client.GetStringAsync(urlBase + cotizacion);
-            CotizacionResponse response = JsonConvert.DeserializeObject<CotizacionResponse> (await streamTask);
+            string streamTask;
+            CotizacionResponse response = null;
+            try
+            {
+            streamTask = await this.client.GetStringAsync(urlBase + cotizacion);
+            response = JsonConvert.DeserializeObject<CotizacionResponse> (streamTask);
+            }
+            catch (Exception e)
+            {
+                await Logger.registrarError("Error consumiendoAPI", e);
+            }
             return response;
         }
 
