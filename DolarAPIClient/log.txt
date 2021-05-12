@@ -1,23 +1,12 @@
-11/5/2021 11:45:45 Cotizacion Solicitada por el usuario: 
-/api/euro/pampa
-11/5/2021 11:45:46 Problema convirtiendo CotizacionResponse to Cotizacion 
-System.FormatException: The string '2021/05/11 14:45:46sadads' was not recognized as a valid DateTime. There is an unknown word starting at index '19'.
-   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
-   at System.Convert.ToDateTime(String value)
-   at DolarAPIClient.Services.Requests.ResponseToCotizacion.convert(CotizacionResponse response) in /home/aceleradora06/DirMOD/EJERCITACION-NET/DolarAPIClient/Services/Requests/ResponseToCotizacion.cs:line 15
-11/5/2021 11:45:46 Cotizacion consumida: 
+__12/5/2021 11:21:14 Cotizacion Solicitada por el usuario: /api/euro/bbva
 
-11/5/2021 11:46:14 Cotizacion Solicitada por el usuario: /api/euro/pampa
-11/5/2021 11:46:17 Problema convirtiendo CotizacionResponse to Cotizacion 
-System.FormatException: The string '2021/05/11 14:46:16sadads' was not recognized as a valid DateTime. There is an unknown word starting at index '19'.
-   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
-   at System.Convert.ToDateTime(String value)
-   at DolarAPIClient.Services.Requests.ResponseToCotizacion.convert(CotizacionResponse response) in /home/aceleradora06/DirMOD/EJERCITACION-NET/DolarAPIClient/Services/Requests/ResponseToCotizacion.cs:line 15
-11/5/2021 11:46:17 Cotizacion consumida: 
-__11/5/2021 11:51:43 Cotizacion Solicitada por el usuario: /api/euro/galicia
-__11/5/2021 11:51:45 Problema convirtiendo CotizacionResponse to Cotizacion 
-System.FormatException: The string '2021/05/11 14:51:45sadads' was not recognized as a valid DateTime. There is an unknown word starting at index '19'.
-   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
-   at System.Convert.ToDateTime(String value)
-   at DolarAPIClient.Services.Requests.ResponseToCotizacion.convert(CotizacionResponse response) in /home/aceleradora06/DirMOD/EJERCITACION-NET/DolarAPIClient/Services/Requests/ResponseToCotizacion.cs:line 15
-__11/5/2021 11:51:45 Cotizacion consumida: 
+__12/5/2021 11:21:15 Cotizacion consumida: Compra:113,2 Venta:120,2 Fecha:12/5/2021 14:21:15
+
+__12/5/2021 11:21:23 Cotizacion Solicitada por el usuario: /api/euro/galicia
+
+__12/5/2021 11:21:23 Cotizacion consumida: Compra:110,9 Venta:117,3 Fecha:12/5/2021 14:21:23
+
+__12/5/2021 11:22:14 Cotizacion Solicitada por el usuario: /api/euro/galicia
+
+__12/5/2021 11:22:15 Cotizacion consumida: Compra:110,9 Venta:117,3 Fecha:12/5/2021 14:22:15
+

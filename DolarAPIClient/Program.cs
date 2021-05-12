@@ -15,26 +15,14 @@ namespace DolarAPIClient
         static async Task Main(string[] args)
         {   
             MenuCotizacion interaccionUsuario = new MenuCotizacion();
-            CotizacionRequestService cotizacionService = new CotizacionRequestService(new HttpClient());
-            ResponseToCotizacion convertRTC = new ResponseToCotizacion();
-
-            while(true){
-                try{
-                    string cotiSolicitada = interaccionUsuario.solicitarTipoCotizacion();
-                    await Logger.registrarSolicitudCotizacion(cotiSolicitada);
-
-                    CotizacionResponse resultadoCotizacion = await cotizacionService.solicitarCotizacion(cotiSolicitada);
-                    Cotizacion coti = convertRTC.convert(resultadoCotizacion);
-                    //coti es el objeto deserealizado de la cotizacion
-                    await Logger.registrarCotizacionConsumida(coti);
-                }
-                catch (Exception e)
-                {
-                    await Logger.registrarError("Problema: ", e);
-                }
+            ContizacionController controlador = new ContizacionController(new CotizacionRequestService(new HttpClient()), new ResponseToCotizacion());
+            Task t=null;
+            while(Console.ReadKey().KeyChar == 'y')
+            {
+                string cotiSolicitada = interaccionUsuario.solicitarTipoCotizacion();
+                t = controlador.solicitarCotizacion(cotiSolicitada);
             }
-            
-            
+            if(t!= null) await t;
         }
     }
 }

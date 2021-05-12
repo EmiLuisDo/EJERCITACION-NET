@@ -1,5 +1,3 @@
-
-
 using System;
 using DolarAPIClient.Models.Domain;
 using DolarAPIClient.Models.Reponses;

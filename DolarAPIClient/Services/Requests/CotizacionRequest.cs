@@ -22,7 +22,7 @@ namespace DolarAPIClient.Services.Requests
             }
             catch (Exception e)
             {
-                await Logger.registrarError("Error consumiendoAPI", e);
+                Logger.registrarError("Error consumiendoAPI", e);
             }
             return response;
         }
