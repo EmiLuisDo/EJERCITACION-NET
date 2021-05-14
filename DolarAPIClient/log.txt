@@ -1,12 +1,4 @@
-__12/5/2021 11:21:14 Cotizacion Solicitada por el usuario: /api/euro/bbva
+__13/5/2021 10:09:43 Cotizacion Solicitada por el usuario: /api/euro/galicia
 
-__12/5/2021 11:21:15 Cotizacion consumida: Compra:113,2 Venta:120,2 Fecha:12/5/2021 14:21:15
-
-__12/5/2021 11:21:23 Cotizacion Solicitada por el usuario: /api/euro/galicia
-
-__12/5/2021 11:21:23 Cotizacion consumida: Compra:110,9 Venta:117,3 Fecha:12/5/2021 14:21:23
-
-__12/5/2021 11:22:14 Cotizacion Solicitada por el usuario: /api/euro/galicia
-
-__12/5/2021 11:22:15 Cotizacion consumida: Compra:110,9 Venta:117,3 Fecha:12/5/2021 14:22:15
+__13/5/2021 10:09:45 Cotizacion consumida: Compra:110,9 Venta:117,3 Fecha:13/5/2021 13:09:45
 

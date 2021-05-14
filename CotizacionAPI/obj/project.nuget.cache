@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "49SYZP6UmbhGf4UWn8Fj9dBI6iTTYMSSLsxgZxzF6KW4mdPlwTDqcQHwJm5K6ZetG0ocueQ77+fUdcgDBYJICw==",
+  "success": true,
+  "projectFilePath": "/home/aceleradora06/DirMOD/EJERCITACION-NET/CotizacionAPI/CotizacionAPI.csproj",
+  "expectedPackageFiles": [
+    "/home/aceleradora06/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
