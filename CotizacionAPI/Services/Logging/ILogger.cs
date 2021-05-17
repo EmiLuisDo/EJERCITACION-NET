@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using CotizacionAPI.Models.Domain;
 using System.Threading;
 
+
 namespace CotizacionAPI.Services.Logging
 {
     public interface ILogger
