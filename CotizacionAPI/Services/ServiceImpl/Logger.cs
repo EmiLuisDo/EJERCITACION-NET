@@ -18,15 +18,15 @@ namespace CotizacionAPI.Services.ServiceImpl
                 await file.WriteLineAsync(mensaje);
             }
         }
-        public async Task registrarSolicitudCotizacionAsync (string cotizacionSolicitada){
+        public async Task registrarSolicitudCotizacionAsync (CotizacionDisponible cotizacionDisponible){
             using (StreamWriter file = new StreamWriter(archivo, append : true))
             {
                 DateTime momento = DateTime.Now;
-                await file.WriteLineAsync("__"+ momento + " Cotizacion Solicitada por el usuario: " + cotizacionSolicitada +"\n");
+                await file.WriteLineAsync("__"+ momento + " Cotizacion Solicitada por el usuario: " + cotizacionDisponible.Name +"\n");
             }
         }
 
-        public async Task resgistrarSolicitudCotizacionesDisponibles ()
+        public async Task resgistrarSolicitudCotizacionesDisponiblesAsync ()
         {
             using (StreamWriter file = new StreamWriter(archivo, append : true))
             {

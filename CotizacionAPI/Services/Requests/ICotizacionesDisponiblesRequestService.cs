@@ -9,6 +9,6 @@ namespace CotizacionAPI.Services.Requests
     public interface ICotizacionesDisponiblesRequestService 
     {
         List<CotizacionDisponibleResponse> solicitarCotizacionesDisponibles();
-
+        CotizacionDisponible cotizacionDisponible(int id);
     }
 }

@@ -4,12 +4,13 @@ using CotizacionAPI.Models.Reponses;
 using System;
 using CotizacionAPI.Services.Logging;
 using Newtonsoft.Json;
+using CotizacionAPI.Models.Domain;
 
 namespace CotizacionAPI.Services.Requests
 {
     public interface ICotizacionRequestService
     {
-        Task<CotizacionResponse> solicitarCotizacionAsync(string cotizacion);
+        Task<CotizacionResponse> solicitarCotizacionAsync(CotizacionDisponible cotizacionDisponible);
 
     }
 }

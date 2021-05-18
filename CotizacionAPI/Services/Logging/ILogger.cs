@@ -10,12 +10,12 @@ namespace CotizacionAPI.Services.Logging
     public interface ILogger
     {
         Task registrarAsync(string mensaje);
-        Task registrarSolicitudCotizacionAsync (string cotizacionSolicitada);
+        Task registrarSolicitudCotizacionAsync (CotizacionDisponible cotizacionDisponible);
 
         Task registrarErrorAsync(string mensaje, Exception e);
 
         Task registrarCotizacionConsumidaAsync(Cotizacion coti);
 
-        Task resgistrarSolicitudCotizacionesDisponibles ();
+        Task resgistrarSolicitudCotizacionesDisponiblesAsync ();
     }
 }

@@ -34,6 +34,10 @@ namespace CotizacionAPI
             services.AddTransient< ILogger, Logger>();
             services.AddTransient< ICotizacionesDisponiblesRequestService, FakeCotizacionesDisponiblesRequestService>();
             services.AddTransient< ICotizacionDisponibleToResponse, CotizacionDisponibleToResponse>();
+            services.AddTransient< ICotizacionRequestService, CotizacionRequestService>();
+            services.AddTransient< IResponseToCotizacion, ResponseToCotizacion>();
+
+
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

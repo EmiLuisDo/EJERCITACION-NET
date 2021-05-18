@@ -5,6 +5,7 @@ using System;
 using CotizacionAPI.Services.Logging;
 using Newtonsoft.Json;
 using CotizacionAPI.Services.Requests;
+using CotizacionAPI.Models.Domain;
 
 namespace CotizacionAPI.Services.ServiceImpl
 {
@@ -13,13 +14,13 @@ namespace CotizacionAPI.Services.ServiceImpl
         ILogger logger;
         private readonly string urlBase = "https://api-dolar-argentina.herokuapp.com"; 
         private readonly HttpClient client;
-        public async Task<CotizacionResponse> solicitarCotizacionAsync(string cotizacion)
+        public async Task<CotizacionResponse> solicitarCotizacionAsync(CotizacionDisponible cotizacionDisponible)
         {
             string streamTask;
             CotizacionResponse response = null;
             try
             {
-            streamTask = await this.client.GetStringAsync(urlBase + cotizacion);
+            streamTask = await this.client.GetStringAsync(urlBase + cotizacionDisponible.UrlRoute);
             response = JsonConvert.DeserializeObject<CotizacionResponse> (streamTask);
             }
             catch (Exception e)
