@@ -6,6 +6,7 @@ using CotizacionAPI.Services.Logging;
 using CotizacionAPI.Services.Requests;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace CotizacionAPI.Controllers
 {
@@ -20,9 +21,17 @@ namespace CotizacionAPI.Controllers
         [Route("cotizaciones")]
         public ActionResult<String> cotizaciones ()
         {
+            _cotizacionesDisponiblesService.solicitarCotizacionesDisponibles();
+
+
             _logger.registrarAsync("anda el logger");
-            Console.WriteLine("está");
             return "asd";
+        }
+
+        public CotizacionesController(ILogger logger, ICotizacionesDisponiblesRequestService cotizacionesDisponiblesService)
+        {
+            _logger = logger;
+            _cotizacionesDisponiblesService = cotizacionesDisponiblesService;
         }
     }
 }

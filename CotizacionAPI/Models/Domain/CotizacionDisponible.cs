@@ -5,19 +5,19 @@ namespace CotizacionAPI.Models.Domain
 {
     public class CotizacionDisponible
     {
-        private readonly int id;
+        public int Id {get;}
 
-        private readonly string name;
-        private readonly string urlRoute;
+        public string Name {get;}
+        public string UrlRoute {get;}
 
         public CotizacionDisponible (int id, string name, string urlRoute)
         {
-            this.id = id;
-            this.name = name;
-            this.urlRoute = urlRoute;
+            this.Id = id;
+            this.Name = name;
+            this.UrlRoute = urlRoute;
         }
         public override string ToString(){
-            return this.id +" "+this.name+" "+ this.urlRoute;
+            return this.Id +" "+this.Name+" "+ this.UrlRoute;
         }
     }
 

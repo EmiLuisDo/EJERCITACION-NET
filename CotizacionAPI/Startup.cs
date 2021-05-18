@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CotizacionAPI.Services.ServiceImpl;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -10,8 +9,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+
+using CotizacionAPI.Services.Logging;
+using CotizacionAPI.Services.Requests;
+using CotizacionAPI.Services.ServiceImpl;
 
 namespace CotizacionAPI
 {
@@ -29,7 +31,9 @@ namespace CotizacionAPI
         {
 
             services.AddMvc();
-            services.AddSingleton< ILogger, Logger>();
+            services.AddTransient< ILogger, Logger>();
+            services.AddTransient< ICotizacionesDisponiblesRequestService, FakeCotizacionesDisponiblesRequestService>();
+            services.AddTransient< ICotizacionDisponibleToResponse, CotizacionDisponibleToResponse>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

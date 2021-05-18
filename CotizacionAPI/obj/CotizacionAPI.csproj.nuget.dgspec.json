@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/home/aceleradora06/DirMOD/EJERCITACION-NET/CotizacionAPI/CotizacionAPI.csproj": {}
+    "/home/emiliano/DirMOD/EJERCITACION-NET/CotizacionAPI/CotizacionAPI.csproj": {}
   },
   "projects": {
-    "/home/aceleradora06/DirMOD/EJERCITACION-NET/CotizacionAPI/CotizacionAPI.csproj": {
+    "/home/emiliano/DirMOD/EJERCITACION-NET/CotizacionAPI/CotizacionAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/aceleradora06/DirMOD/EJERCITACION-NET/CotizacionAPI/CotizacionAPI.csproj",
+        "projectUniqueName": "/home/emiliano/DirMOD/EJERCITACION-NET/CotizacionAPI/CotizacionAPI.csproj",
         "projectName": "CotizacionAPI",
-        "projectPath": "/home/aceleradora06/DirMOD/EJERCITACION-NET/CotizacionAPI/CotizacionAPI.csproj",
-        "packagesPath": "/home/aceleradora06/.nuget/packages/",
-        "outputPath": "/home/aceleradora06/DirMOD/EJERCITACION-NET/CotizacionAPI/obj/",
+        "projectPath": "/home/emiliano/DirMOD/EJERCITACION-NET/CotizacionAPI/CotizacionAPI.csproj",
+        "packagesPath": "/home/emiliano/.nuget/packages/",
+        "outputPath": "/home/emiliano/DirMOD/EJERCITACION-NET/CotizacionAPI/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/aceleradora06/.nuget/NuGet/NuGet.Config"
+          "/home/emiliano/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

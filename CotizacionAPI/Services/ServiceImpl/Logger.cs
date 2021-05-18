@@ -3,6 +3,7 @@ using System.IO;
 using System.Threading.Tasks;
 using CotizacionAPI.Models.Domain;
 using System.Threading;
+
 using CotizacionAPI.Services.Logging;
 
 namespace CotizacionAPI.Services.ServiceImpl
