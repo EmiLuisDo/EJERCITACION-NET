@@ -5,9 +5,9 @@ namespace CotizacionAPI.Models.Reponses
 {
     public class CotizacionDisponibleResponse
     {
-        private int Id {get; set;}
+        public int Id {get; set;}
 
-        private string Name {get; set;}
+        public string Name {get; set;}
 
         public CotizacionDisponibleResponse(int id, string name)
         {

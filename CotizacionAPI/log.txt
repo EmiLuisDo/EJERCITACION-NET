@@ -1,1 +1,6 @@
 anda el logger
+anda el logger
+anda el logger
+__18/5/2021 08:36:22 Lista de cotizaciones Solicitada
+__18/5/2021 08:37:28 Lista de cotizaciones Solicitada
+__18/5/2021 08:38:32 Lista de cotizaciones Solicitada

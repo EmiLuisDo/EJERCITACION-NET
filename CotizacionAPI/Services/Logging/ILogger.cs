@@ -15,5 +15,7 @@ namespace CotizacionAPI.Services.Logging
         Task registrarErrorAsync(string mensaje, Exception e);
 
         Task registrarCotizacionConsumidaAsync(Cotizacion coti);
+
+        Task resgistrarSolicitudCotizacionesDisponibles ();
     }
 }

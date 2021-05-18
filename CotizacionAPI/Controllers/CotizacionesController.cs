@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CotizacionAPI.Models.Reponses;
 using CotizacionAPI.Services.Logging;
 using CotizacionAPI.Services.Requests;
 using Microsoft.AspNetCore.Http;
@@ -19,14 +20,20 @@ namespace CotizacionAPI.Controllers
 
         [HttpGet]
         [Route("cotizaciones")]
-        public ActionResult<String> cotizaciones ()
+        public ActionResult<List<CotizacionDisponibleResponse>> cotizaciones ()
         {
-            _cotizacionesDisponiblesService.solicitarCotizacionesDisponibles();
+            List<CotizacionDisponibleResponse> cotizacionesDisponiblesResponses = _cotizacionesDisponiblesService.solicitarCotizacionesDisponibles();
+            
+            _logger.resgistrarSolicitudCotizacionesDisponibles();
 
 
-            _logger.registrarAsync("anda el logger");
-            return "asd";
+            foreach (var coti in cotizacionesDisponiblesResponses)
+            {
+                Console.WriteLine(coti.Name);
+            }
+            return cotizacionesDisponiblesResponses;
         }
+
 
         public CotizacionesController(ILogger logger, ICotizacionesDisponiblesRequestService cotizacionesDisponiblesService)
         {

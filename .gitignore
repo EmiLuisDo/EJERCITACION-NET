@@ -2,9 +2,6 @@ NET_MANUAL.pdf
 CSHARP_estudiantes.pdf
 ProgramacinOrientadaaObjetosconC.pdf
 
-AspNetCoreTodo/AspNetCoreTodo/bin/
-AspNetCoreTodo/AspNetCoreTodo/obj/
-
 EJERCICIO1_14632/bin/
 EJERCICIO1_14632/obj/
 
@@ -34,3 +31,15 @@ EJERCICIO9_15794/obj/
 
 PARALLELFOREACH/bin/
 PARALLELFOREACH/obj/
+
+EjemploConsumeAPI/bin/
+EjemploConsumeAPI/obj/
+
+DolarAPIClient/bin/
+DolarAPIClient/obj/
+
+CotizacionAPI/bin/
+CotizacionAPI/obj/
+
+SupermarketAPI/bin/
+SupermarketAPI/obj/

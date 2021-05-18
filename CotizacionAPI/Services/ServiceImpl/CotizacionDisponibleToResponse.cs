@@ -2,7 +2,8 @@ using System;
 using CotizacionAPI.Models.Domain;
 using CotizacionAPI.Models.Reponses;
 
-namespace CotizacionAPI.Services.Requests;
+namespace CotizacionAPI.Services.Requests
+{
 
 public class CotizacionDisponibleToResponse : ICotizacionDisponibleToResponse
 {
@@ -12,5 +13,7 @@ public class CotizacionDisponibleToResponse : ICotizacionDisponibleToResponse
 
         return cotizacionDisponibleResponse;
     }
+
+}
 
 }

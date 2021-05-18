@@ -26,6 +26,15 @@ namespace CotizacionAPI.Services.ServiceImpl
             }
         }
 
+        public async Task resgistrarSolicitudCotizacionesDisponibles ()
+        {
+            using (StreamWriter file = new StreamWriter(archivo, append : true))
+            {
+                DateTime momento = DateTime.Now;
+                await file.WriteLineAsync("__"+ momento + " Lista de cotizaciones Solicitada");
+            }
+        }
+
         public async Task registrarErrorAsync(string mensaje, Exception e)
         {
             using (StreamWriter file = new StreamWriter(archivo, append : true))
