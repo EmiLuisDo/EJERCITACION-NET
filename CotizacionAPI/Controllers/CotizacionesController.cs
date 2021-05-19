@@ -30,7 +30,7 @@ namespace CotizacionAPI.Controllers
             
             _logger.resgistrarSolicitudCotizacionesDisponiblesAsync();
 
-            return cotizacionesDisponiblesResponses;
+            return Ok( cotizacionesDisponiblesResponses );
         }
 
         [HttpGet("cotizacion/{id}")]
@@ -40,7 +40,8 @@ namespace CotizacionAPI.Controllers
             _logger.registrarSolicitudCotizacionAsync(cotizacionDisponible);
             CotizacionResponse cotizacionResponse = await _cotizacionRequest.solicitarCotizacionAsync(cotizacionDisponible);            
             Cotizacion cotizacion = _responseToCotizacion.convert(cotizacionResponse);
-            return cotizacion;
+            _logger.registrarCotizacionConsumidaAsync(cotizacion);
+            return Ok(cotizacion);
         }
 
         public CotizacionesController(ILogger logger, 

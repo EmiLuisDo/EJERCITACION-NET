@@ -1,11 +1,22 @@
-anda el logger
-anda el logger
-anda el logger
-__18/5/2021 08:36:22 Lista de cotizaciones Solicitada
-__18/5/2021 08:37:28 Lista de cotizaciones Solicitada
-__18/5/2021 08:38:32 Lista de cotizaciones Solicitada
-__18/5/2021 10:25:47 Lista de cotizaciones Solicitada
-__18/5/2021 10:49:19 Lista de cotizaciones Solicitada
-__18/5/2021 10:49:20 Lista de cotizaciones Solicitada
-__18/5/2021 10:50:18 Lista de cotizaciones Solicitada
-__18/5/2021 10:51:09 Lista de cotizaciones Solicitada
+__19/5/2021 10:57:49 Lista de cotizaciones Solicitada
+__19/5/2021 10:57:51 Lista de cotizaciones Solicitada
+__19/5/2021 10:57:58 Cotizacion Solicitada por el usuario: Cotizacion del Euro del Banco de La Pampa
+__19/5/2021 10:58:00 Cotizacion consumida: Compra:109,5 Venta:115,5 Fecha:19/5/2021 13:58:00
+__19/5/2021 11:16:44 Cotizacion Solicitada por el usuario: Cotizacion del Euro del Banco de La Pampa
+__19/5/2021 11:16:47 Cotizacion consumida: Compra:109,5 Venta:115,5 Fecha:19/5/2021 14:16:46
+__19/5/2021 11:18:42 Cotizacion Solicitada por el usuario: Cotizacion del Euro del Banco de La Pampa
+__19/5/2021 11:18:43 Cotizacion consumida: Compra:109,5 Venta:115,5 Fecha:19/5/2021 14:18:43
+__19/5/2021 11:21:30 Cotizacion Solicitada por el usuario: Cotizacion del Euro del Banco de La Pampa
+__19/5/2021 11:21:32 Cotizacion consumida: Compra:109,5 Venta:115,5 Fecha:19/5/2021 14:21:32
+__19/5/2021 11:21:44 Cotizacion Solicitada por el usuario: Cotizacion del Euro del Banco de La Pampa
+__19/5/2021 11:21:46 Cotizacion consumida: Compra:109,5 Venta:115,5 Fecha:19/5/2021 14:21:46
+__19/5/2021 11:24:05 Cotizacion Solicitada por el usuario: Cotizacion del Euro del Banco de La Pampa
+__19/5/2021 11:24:08 Cotizacion consumida: Compra:109,5 Venta:115,5 Fecha:19/5/2021 14:24:08
+__19/5/2021 11:24:49 Cotizacion Solicitada por el usuario: Cotizacion del Euro del Banco de La Pampa
+__19/5/2021 11:24:50 Cotizacion consumida: Compra:109,5 Venta:115,5 Fecha:19/5/2021 14:24:50
+__19/5/2021 11:25:07 Cotizacion Solicitada por el usuario: Cotizacion del Euro del Banco de La Pampa
+__19/5/2021 11:25:12 Cotizacion consumida: Compra:109,5 Venta:115,5 Fecha:19/5/2021 14:25:12
+__19/5/2021 11:25:53 Cotizacion Solicitada por el usuario: Cotizacion del Euro del Banco de La Pampa
+__19/5/2021 11:25:56 Cotizacion Solicitada por el usuario: Cotizacion del Euro del Banco de La Pampa
+__19/5/2021 11:25:57 Cotizacion consumida: Compra:109,5 Venta:115,5 Fecha:19/5/2021 14:25:56
+__19/5/2021 11:25:59 Cotizacion consumida: Compra:109,5 Venta:115,5 Fecha:19/5/2021 14:25:58

@@ -22,7 +22,7 @@ namespace CotizacionAPI.Services.ServiceImpl
             using (StreamWriter file = new StreamWriter(archivo, append : true))
             {
                 DateTime momento = DateTime.Now;
-                await file.WriteLineAsync("__"+ momento + " Cotizacion Solicitada por el usuario: " + cotizacionDisponible.Name +"\n");
+                await file.WriteLineAsync("__"+ momento + " Cotizacion Solicitada por el usuario: " + cotizacionDisponible.Name );
             }
         }
 
@@ -49,7 +49,7 @@ namespace CotizacionAPI.Services.ServiceImpl
             using (StreamWriter file = new StreamWriter(archivo, append : true))
             {
                 DateTime momento = DateTime.Now;
-                await file.WriteLineAsync("__"+momento + " Cotizacion consumida: " + coti+"\n");
+                await file.WriteLineAsync("__"+momento + " Cotizacion consumida: " + coti);
             }
         }
     }

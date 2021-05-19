@@ -6,8 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body onload="consumirAPI()">
-    <script src="consumeAPI.js"></script>
-    
+<body>
+    <script src="consumeAPI.js" onload="cargarRazas()"></script>
+
+    <select id="razaSelect" onfocus="resetearApp()" onchange="obtenerImagenesRandom()"><option>Seleccionar Raza</option>></select>
+    <input type="button" id="btnInfoRazas" style="display:none"></input>
+    <input id="btnCargarImagen" type="button" value="Cargar Imagen" onclick="cargarImagenRandomPerro()" style="display:block" disabled></input>
+
+    <div style =" border: black 2px solid; width: 1000px; height:700px" >
+        <img id="perroImg" style="margin:auto; max-width: 500px; display:block;" src="" ></img>
+    </div>
 </body>
 </html>
