@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\desafioJunior01\desafioJunior01.csproj" />
+    <ProjectReference Include="..\desafioDirmodJr01\desafioJunior01.csproj" />
   </ItemGroup>
 
 </Project>
